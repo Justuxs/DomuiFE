@@ -1,0 +1,92 @@
+#LeadersTable{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:separate ;
+    border:solid gold 10px ;
+    border-radius: 20px ;
+    border-spacing: 0.1em;
+    width: 60em;
+    height: 36em;
+}
+#LeadersTable tr{
+    border-radius: 10px ;
+
+}
+#LeadersTable tr{
+    padding:  6px;
+    background: #b4f0ff;
+}
+#podiumContainer{
+    display: inline-block;
+    vertical-align: top
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border-collapse:separate ;
+    border:solid #003a70 10px ;
+    border-image: linear-gradient(180deg,#61dafb, #0c18fd) 1;
+    border-radius: 40px;
+    background-image:linear-gradient(180deg, gold, #0cfd83);
+
+}
+.container figcaption,.container caption{
+    caption-side: top ;
+    font-weight: bold ;
+    color: #1976d2;
+    text-align: center;
+    padding: 16px;
+    font-size: 30px;
+    display: block;
+}
+.captionDiv{
+    text-align: center;
+}
+.NoLeaders{
+    width: 60em;
+    height: 36em;
+}
+#LeadersTableHead *{
+    background: #1976d2;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+#LeadersTable tr:first-child > td {
+    background: gold;
+}
+#LeadersTable tr:nth-child(2) > td {
+    background: silver;
+}
+#LeadersTable tr:nth-child(3) > td {
+    background: #CD7F32;
+}
+#LeadersTable tbody * {
+    font-size: 20px;
+}
+.carousel {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.active {
+    background-color: #3333ff;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+

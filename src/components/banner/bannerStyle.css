@@ -1,0 +1,26 @@
+.banner {
+    position: relative;
+}
+
+#title {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Times New Roman";
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: 0.065em;
+    white-space: nowrap;
+}
+#bannerImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    height: 7.5em;
+}
+.fixedBox{
+    position: fixed;
+}

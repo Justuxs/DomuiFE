@@ -1,0 +1,40 @@
+.textDiv, .podiumNameDiv, .podium{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+#first, #second, #third{
+
+}
+
+#first {
+    top: 76%;
+    left: 48%;
+}
+#second {
+    top: 76%;
+    left: 64%;
+}
+#third {
+    top: 77%;
+    left:32%;
+}
+#third, #second, #first {
+    margin: auto;
+    align-items: center;
+    position: absolute;
+    font-family: "Droid Serif";
+    font-weight: bold;
+    color: white;
+
+}
+#podiumIng{
+    align-items: center;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80em;
+}

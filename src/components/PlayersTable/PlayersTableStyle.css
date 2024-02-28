@@ -1,0 +1,18 @@
+#PlayerTable * {
+  text-align: center !important;
+}
+#PlayerTableHead {
+  background: #1976d2 !important;
+  color: aliceblue;
+}
+#PlayerTableHead th,
+tr {
+  color: inherit;
+  border: aliceblue;
+}
+#PlayerTableRow tr:nth-child(even) {
+  background: #95c6f7;
+}
+#PlayerTableRow tr:nth-child(odd) {
+  background: #dce5ef;
+}
